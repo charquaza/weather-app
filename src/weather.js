@@ -1,5 +1,4 @@
 import {apiKey} from "./config.js";
-//add F to C toggler
 
 var units = "imperial";
 

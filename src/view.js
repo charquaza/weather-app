@@ -2,8 +2,6 @@ var loadingElem = document.querySelector("div.loading-screen");
 var weatherDivElem = document.querySelector("div.weather-container");
 var errorElem = document.querySelector("div.error-screen");
 
-//having some problems with hiding DOM elements
-
 var view = {
     updateWeatherElements({iconURL, weatherData}) {
         var iconElem = document.querySelector("img.icon");
