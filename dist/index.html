@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Weather</title>
+
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <div class="search-container">
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+            <button id="search">Search</button>
+        </div>
+
+        <div class="loading-screen hidden">
+            <p>Loading...</p>
+        </div>
+
+        <div class="error-screen hidden">
+            <p>Oops, something went wrong. Please try a different search.</p>
+        </div>
+        
+        <div class="weather-container hidden">
+            <div class="location-info">
+                <p class="city"></p>
+                <p class="country"></p>
+            </div>
+            
+            <div class="main-card">
+                <div class="img-container">
+                    <img class="icon" src="">
+                </div>
+    
+                <div class="main-info">
+                    <p class="temp"></p>
+                    <p class="description"></p>
+                </div>
+            </div>
+            
+            <div class="more-info">
+                <p class="humidity"></p>
+            </div>
+        </div>
+    </body>
+</html>

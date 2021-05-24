@@ -1,0 +1,58 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hidden {
+    display: none !important;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body > div {
+    margin: 20px;
+}
+
+p {
+    margin: 5px;
+}
+
+div.weather-container {
+    display: flex;
+    flex-direction: column;
+}
+
+div.location-info {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+div.main-card {
+    display: flex;
+}
+
+div.main-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.main-info p.temp {
+    font-weight: bold;
+    font-size: 22px;
+}
+div.main-info p.description {
+    font-size: 18px;
+}
+
+div.more-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    font-size: 15px;
+}
