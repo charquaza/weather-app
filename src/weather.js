@@ -1,4 +1,4 @@
-import {apiKey} from "./config.js";
+import {apiKey} from "../config.js";
 
 var units = "imperial";
 
